@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgredcenter"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/logosc"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/logomny"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/logosc"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBaseline="@+id/logosc"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shader_rectangle">
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Email"
+            android:drawableRight="@drawable/baseline_email_24"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:backgroundTint="@color/bgredcenter"
+            android:background="@drawable/screen_bg"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="160dp"
+            android:hint="*****"
+            android:textSize="24sp"
+            android:drawableRight="@drawable/baseline_key_24"
+            android:padding="10dp"
+            android:backgroundTint="@color/bgredcenter"
+            android:background="@drawable/screen_bg"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/girisbtn"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Giriş Yap"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/giris_btn"
+        android:backgroundTint="@null"
+        android:layout_marginTop="540dp"
+        android:onClick="girisYap"
+        />
+
+
+    <Button
+        android:id="@+id/kayitbtn"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Kayit Ol"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/giris_btn"
+        android:layout_marginTop="540dp"
+        android:onClick="kayitOl"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

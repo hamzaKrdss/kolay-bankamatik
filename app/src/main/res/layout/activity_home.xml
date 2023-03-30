@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgredcenter"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/screenmny"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:text="12356"
+        android:textStyle="bold"
+        android:textSize="72sp"
+        android:background="@drawable/shader_rectangle_copy"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/arttir_bt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="+"
+        android:textSize="64sp"
+        android:textStyle = "normal"
+        android:background="@drawable/arti_btn"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:onClick="arttir"
+        />
+
+    <Button
+        android:id="@+id/azalt_bt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="-"
+        android:textSize="64sp"
+        android:textStyle = "normal"
+        android:background="@drawable/arti_btn"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:onClick="azalt"
+        />
+
+    <EditText
+        android:id="@+id/moneyTxt"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/arti_btn"
+        android:hint="....."
+        android:textSize="24sp"
+        android:gravity="center|right"
+        android:padding="10dp"
+        android:layout_marginTop="500dp"
+        android:inputType="number" />
+
+
+</RelativeLayout>
+
+
+
+
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825390970865",
+    "project_id": "bankamatik-63918",
+    "storage_bucket": "bankamatik-63918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825390970865:android:47cb605fe4d1f984e6f650",
+        "android_client_info": {
+          "package_name": "com.legionhamz.bsbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825390970865-viei97o9d3pjbmi090s0qjhb8l93mcth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM0SdBgv80Bf0i4JBh59BDHUXNS2oXcN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825390970865-viei97o9d3pjbmi090s0qjhb8l93mcth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
